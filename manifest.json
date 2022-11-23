@@ -1,6 +1,6 @@
 {
-    "short_name": "ExpCalc",
-    "name": "Experice Calculator",
+    "short_name": "FifaWC22",
+    "name": "Fifa Worldcup 2022",
     "icons": [
      
       {
@@ -14,12 +14,12 @@
         "sizes": "512x512"
       }
     ],
-    "id": "/?source=pwa",
+    "id": "/fifa2022?source=pwa",
     "start_url": "/?source=pwa",
-    "background_color": "#3367D6",
+    "background_color": "#EED0C9",
     "display": "standalone",
     "scope": "/",
-    "theme_color": "#3367D6",
+    "theme_color": "#EED0C9",
     "shortcuts": [
       {
         "name": "How's weather today?",
