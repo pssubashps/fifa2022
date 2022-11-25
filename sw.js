@@ -1,4 +1,5 @@
 let beforeInstallPrompt = null;
+let window = self;
 window.addEventListener("beforeinstallprompt", eventHandler, errorHandler);
 
 function eventHandler(event){
