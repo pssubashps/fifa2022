@@ -15,7 +15,7 @@
       }
     ],
     "id": "/fifa2022?source=pwa",
-    "start_url": "fifa2022/index.html",
+    "start_url": "/fifa2022/index.html",
     "background_color": "#EED0C9",
     "display": "standalone",
     "scope": "/",
