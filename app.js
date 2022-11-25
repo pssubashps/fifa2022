@@ -126,7 +126,7 @@ Vue.createApp({
 if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {
       navigator.serviceWorker
-        .register("sw.js")
+        .register("sw.js",{ scope: 'fifa2022/' })
         .then(res => console.log("service worker registered",res.scope))
         .catch(err => console.log("service worker not registered", err))
     })
