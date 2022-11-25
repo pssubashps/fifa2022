@@ -8,12 +8,12 @@
     <title>FiFA WC 2022</title>
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="manifest" href="manifest.json">
+    <link rel="manifest" href="manifest.json?v=1">
 </head>
 
 <body>
     <div class="conatiner"  id="app">
-        <div v-for="(m, index) in matches"  :ref="m.matchtime.split('T')[0].split('-')[2]">
+        <div class="match-wrap" v-for="(m, index) in matches"  :ref="m.matchtime.split('T')[0].split('-')[2]">
             <div  class="group" :class="m.group" v-if="m.group == 'A' || m.group == 'B' || m.group == 'C' || m.group == 'D' || m.group == 'E' || m.group == 'F' || m.group == 'G' || m.group == 'H' ">Group {{m.group}} </div>
             <div  class="group" :class="m.group" v-if="m.group != 'A' && m.group != 'B' && m.group != 'C' && m.group != 'D' && m.group != 'E' && m.group != 'F' && m.group != 'G' && m.group != 'H' ">{{m.group}} </div>
             <div  class="row" :class="m.group">
