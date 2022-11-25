@@ -15,10 +15,10 @@
       }
     ],
     "id": "/fifa2022?source=pwa",
-    "start_url": "/fifa2022/index.html",
+    "start_url": "/fifa2022/",
     "background_color": "#EED0C9",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/fifa2022/",
     "theme_color": "#EED0C9",
     "shortcuts": [
       {
