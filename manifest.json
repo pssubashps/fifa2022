@@ -18,7 +18,7 @@
     "start_url": "/fifa2022?source=pwa",
     "background_color": "#EED0C9",
     "display": "standalone",
-    "scope": "/fifa2022/",
+    "scope": "/",
     "theme_color": "#EED0C9",
     "shortcuts": [
       {
